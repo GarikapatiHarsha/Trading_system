@@ -1,0 +1,30 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(2, 2, 92, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-text {
+  color: white;
+}
+
+.nav-text:hover {
+  color: blue;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.Content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-content: space-around;
+}
